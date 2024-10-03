@@ -1,0 +1,6 @@
+com\example\shop26\service\OfferService.class
+com\example\shop26\model\Offer.class
+com\example\shop26\Shop26Application.class
+com\example\shop26\controller\OfferController.class
+com\example\shop26\model\Product.class
+com\example\shop26\repository\OfferRepository.class

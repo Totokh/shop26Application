@@ -1,0 +1,11 @@
+1) setup postgres user (password postgres), or edit superuser settings in src/main/resources/application.properties
+
+2) setup jdbc:postgresql://localhost:5432/testdb, can be done for instance in pgadmin by running
+CREATE DATABASE testdb
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+
+3) Either launch through default Spring configuration, or run spring-boot:run,--debug
+
+4) access swagger at http://localhost:8080/swagger-ui/index.html#/
