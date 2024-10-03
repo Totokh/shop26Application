@@ -1,3 +1,5 @@
+By Tony HUANG
+
 1) setup postgres user (password postgres), or edit superuser settings in src/main/resources/application.properties
 
 2) setup jdbc:postgresql://localhost:5432/testdb, can be done for instance in pgadmin by running
